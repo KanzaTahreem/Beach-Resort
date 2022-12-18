@@ -1,6 +1,8 @@
+import './App.css';
+
 function App() {
   return (
-    <div>Hello React!</div>
+    <div className="app">Hello React!</div>
   );
 }
 
