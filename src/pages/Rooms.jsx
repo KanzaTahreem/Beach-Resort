@@ -1,8 +1,9 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
 const Rooms = () => (
   <div>
-    Hello from rooms page!
+    <Hero hero="roomsHero" />
   </div>
 );
 
