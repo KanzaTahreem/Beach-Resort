@@ -1,0 +1,15 @@
+@import 'index.scss';
+
+.defaultHero,
+.roomsHero {
+  min-height: calc(100vh - 66px);
+  background: url('../images/hero/defaultHomeBg.jpeg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomsHero {
+  background-image: url('../images/hero/defaultRoomBg.jpeg');
+  min-height: 60vh;
+}
